@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Todo List</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="card w-100 mt-3">
+                <header class="card-header">
+                    <h5 class="card-title">Todo List Page</h5>
+                </header>
+                <section class="card-body">
+                    <form id="todoAddForm mt-2">
+                        <input type="text" id="todoName" aria-describedby="todo"
+                            placeholder="Enter todo">
+
+                        <button href="#" id="todoAddButton" type="submit" >Add todo</button>
+                    </form>
+                </section>
+                <section class="card-body">
+                    <h5 class="card-title">Todo List</h5>
+                    <form name="form2" id="todoListForm">
+                        <input type="text" id="todoSearch" placeholder="Search todo">
+                    </form>
+
+                    <ul class="list-group">
+                    </ul>
+                    <button href="#" id="todoClearButton" >Clear all todo</button>
+                </section>
+            </div>
+            <footer>
+                <p>Author: Batuhan TANIR</p>
+                <p><a href="mailto:batuhan.tanir@gmail.com">batuhan.tanir@gmail.com</a></p>
+            </footer>
+        </div>
+    </div>
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,97 @@
+/*Import Font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+html {
+  height: 100%;
+  background-image: url("./img/1320142.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  margin: 1rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 60vw;
+  backdrop-filter: blur(10px);
+
+  border: 1px #fff solid;
+  border-radius: 5px;
+  padding: 1rem 5vw;
+}
+.card-title {
+  margin-top: 0.5rem;
+  font-size: large;
+  font-weight: 800;
+}
+
+.card-body {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.error {
+  margin-top: 1rem;
+  padding: 0.3rem;
+  display: flex;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  justify-content: center;
+
+}
+#todoAddForm {
+  display: flex;
+}
+#todoName,
+#todoSearch,
+#todoAddButton,
+#todoClearButton {
+  margin-top: 0.5rem;
+  width: 50vw;
+  height: 1.5rem;
+  color: black;
+  border: 1px #fff solid;
+  border-radius: 5pc;
+  text-align: center;
+  opacity: 0.9;
+}
+
+li {
+  margin: 0.5rem;
+  padding-top: 0.4rem;
+  width: 49.5vw;
+  list-style: none;
+  border-top: 1px solid #fff;
+  display: flex;
+  justify-content: space-between;
+}
+footer {
+  width: 60vw;
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+footer p {
+  border: 1px solid white;
+  padding: 0.8rem;
+  border-radius: 5px;
+  backdrop-filter: blur(10px);
+}
+footer p a {
+  display: flex;
+  flex-wrap: wrap;
+}
+
